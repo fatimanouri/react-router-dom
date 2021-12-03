@@ -1,7 +1,7 @@
 import {useParams} from 'react-router-dom';
 
 const Detail =()=>{
-    const params = useParams();
+    const {params} = useParams();
 
     return(
         <div>
